@@ -1,0 +1,360 @@
+* {
+     margin: 0;
+     padding: 0;
+} 
+
+@font-face { 
+      font-family:"fuente1";
+      src: url("../fuente/Gabriola.ttf") format('truetype');
+}
+
+@font-face { 
+     font-family:"fuente2";
+     src: url("../fuente/Y2K_neophyte.ttf") format('truetype');
+}
+
+@font-face {
+     font-family:"fuente3";
+     src: url("../fuente/Bookworm.ttf")  format('truetype');
+}
+
+body {
+     background-color: rgb(253, 211, 218);
+}
+
+.float{
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color: #25d366;
+	color: #FFF;
+	border-radius: 60px;
+	text-align: center;
+     font-size: 40px;
+	box-shadow: 2px 2px 3px #999;
+     z-index: 100;
+}
+
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+     background-color: #fff;
+}
+
+.my-float{
+	margin-top: 10px;
+}
+
+header { 
+     background-image: url(./imágenes/125_receta.jpg);
+     background-color: white;
+     width: 100%;
+     height: 71vh;
+     box-sizing: border-box;
+     border-bottom: 7Px solid rgb(243, 142, 159);
+}
+
+.título h1 {
+     color:darkred;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     font-size: 55px;
+}
+
+.objeto1 { 
+     align-items: flex-end;
+     width: 100%;
+     background-color: rgb(253, 211, 218) ;
+     height: 100px;
+     color:darkred;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1:hover { 
+     font-size: 80px;  
+}
+
+img {
+     width: 100%;
+     height: 60vh;
+}
+
+nav { 
+     background-color: rgb(241, 117, 138);
+     width: 100%;
+     height: 11vh;
+     padding-top: 0.5%;
+}
+
+.navrecetas { 
+     content: justify;
+     clear: separate;
+     padding: 0.5rem 2rem;
+     align-items: center;
+}
+
+.navrecetass {
+     display: flex;
+     position: baseline;
+     margin-right: 1%;
+     padding: 1%;
+     font-size: 1.3rem;
+     list-style: none;
+}
+
+.navrecetas li {
+     margin: 0 50px 0px 0;
+     border: 2px solid;
+     color: rgb(204, 57, 81);
+     padding: 0.6rem 0.75rem;
+     border-radius: 20%;
+     background-color: rgb(253, 211, 218);
+}
+
+.navrecetas li {
+     display: inline;
+     justify-content: center;
+     align-items: center;
+} 
+
+.navrecetas a:hover {
+     background-color: rgb(253, 211, 218);
+     border-bottom-style: groove;
+}
+
+.navrecetas li:last-child {
+     background-color: rgb(253, 211, 218);
+     border: 2px solid rgb(204, 57, 81);
+     padding: 0.25rem 1rem;
+     border-radius: 0.5px;
+}
+
+.contenedor { 
+     display: flex;
+     justify-content: flex-start;
+}
+
+.section {
+     background-color: rgb(231, 200, 160);
+     width: 50vw;
+     height: 200vh;
+     margin: 2.5%;
+     padding: 40Px;
+     border-top: 6Px solid rgb(243, 142, 159);
+     box-shadow: 5px 8px 12px black;
+     overflow: scroll;
+     box-sizing: border-box;
+     box-sizing: content-box;
+     text-align: justify;
+     clear: both;
+     float: left;
+}
+
+.títuloh2 {
+     font-size: 40px;
+     color: black;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+     font-size: 30px;
+     text-align: center;
+}
+
+h3:hover {
+     color:rgb(18, 194, 18);
+}
+
+.p1 {
+     color: black;
+     text-align: justify;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.p2{ 
+     font-family:"fuente1";
+     color: black;
+     font-size: 1.2rem;
+}
+
+h4 {
+     font-size: 2rem;
+     text-align: center;
+     color:brown;
+}
+
+.p3 { 
+     font-family:"fuente2";
+     font-size: 1.2rem;
+     color:brown;
+     text-align: justify;
+}
+
+h5 { 
+     font-size: 1.8rem;
+     color: black;
+     text-align: justify;
+}
+
+.ul { 
+     font-size: 1rem;
+     color: black;
+     font-family: 'Georgia', Times, serif;
+     text-align: justify;
+     margin-left: 4%;
+     margin-right: 4%;
+}
+
+.ul li:hover {
+     background-color: white;
+}
+
+bdi { 
+     color: brown;
+     text-align: justify;
+}
+
+.p4 bdi { 
+     color: black;
+     text-align: justify;
+}
+
+h6 { 
+     font-size: 1.8rem;
+     color: black;
+     text-align: justify;
+}
+
+.ol { 
+     font-size: 1rem;
+     color: black;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     text-align: justify;
+     margin: 2%;
+}
+
+.ol li:hover {
+     background-color: white;
+}
+
+.aside {
+     background-color: rgb(181, 205, 250);
+     width: 38.4vw;
+     height: 213.2vh;
+     margin-left: 8.4%;
+     margin-top: 4%;
+     padding: 40Px;
+     border: 6px solid rgb(42, 80, 131);
+     overflow: scroll;
+     box-sizing: border-box;
+     text-align: justify;
+     float: left;
+     clear: both;
+}
+
+.noticias { 
+     font-size: 1.20rem;
+     font-family:"fuente3";
+     color: rgb(27, 68, 121);
+     text-align: justify;
+     margin: 1%;
+}
+
+.humita { 
+     width: 300px;
+     height: 250px;
+     margin: 2%;
+     padding: 2%;
+}
+
+.humita:hover { 
+     width: 90%;
+     border: 10px solid pink;
+     padding: -1%;
+}
+
+.footer { 
+     box-sizing: content-box;
+     background-color: black;
+     clear: both;
+     width: 90.5vw;
+     height: 45vh;
+     color: white;
+     font-family: 'Courier New', Courier, monospace;
+     text-align: center;
+     margin-top: 5px;
+     margin: 0%;
+     padding: 0%;
+     font-size: 1rem;
+     padding: 4vw;
+}
+
+.container-icons img {
+     margin-top: 3.5%;
+     width: 60px;
+     height: 60px;
+     clear: both;
+}
+
+.container-map {
+     width: 300px;
+     height: 150px;
+     margin-top: -9%;
+     float: left;
+     position: center;
+     clear: both;
+}
+
+:link { 
+     size: 50px;
+     color: rgb(2, 68, 6);
+}
+
+a:visited { 
+     color: rgb(6, 77, 11);
+}
+
+form { 
+     float: left;
+     padding-left: 30px;
+}
+
+label {
+     width: auto;
+     text-align: right;
+}
+
+.input,textarea {
+  /* Tipo de letra monoespaciada */
+  font: 15px sans-serif;
+  /* Tamaño campo de texto */
+  width: 550px;
+  box-sizing: border-box;
+  background-color: rgb(242, 255, 231);
+  /* Bordes del campo del formulario */
+  border: 5px solid pink;
+}
+
+input:focus,
+textarea:focus {
+  /* Para elementos que tienen el cursor */
+  border-color: rgb(233, 255, 208);
+}
+
+textarea {
+  vertical-align: top;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* Espacio para escribir texto */
+  height: 250px;
+}
+
+.button {
+  padding-left: 50%;
+}
+
+.enviar {
+     padding-left: 50%;
+     margin: 10%;
+}
